@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <div class="resume">
+        <div class="header">
+            <div class="basic">
+                <h1>史文杰</h1>
+                <h2>超级——软件——工程师——pro max</h2>
+            </div>
+            <div class="images">
+                <img src="img/per.jpg" width="150px">
+            </div>
+        </div>
+
+        <div class="section">
+            <h3>个人信息</h3>
+            <div class="info-item">
+                <span class="iconfont">&#xe63a;</span>
+                <p>165895425652@qq.com</p>
+            </div>
+            <div class="info-item">
+                <span class="iconfont">&#xe616;</span>
+                <p>银河系无畏契约大学</p>
+            </div>
+            <div class="info-item">
+                <span class="iconfont">&#xe691;</span>
+                <p>1887415157</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h3>学习经历</h3>
+            <p>宇宙-1001年 穿越火线初中</p>
+            <p>1001-至今 英雄联盟大学</p>
+        </div>
+
+        <div class="section">
+            <h3>教育背景</h3>
+            <p>大学学历 - 计算机网络技术 <br>
+                java，C+,Python，adobe全家桶</p>
+        </div>
+<div class="section">
+        <h3>技能</h3>
+    <ul>
+        <li>打游戏</li>
+        <li>打篮球</li>
+        <li>唱歌</li>
+        <li>画画</li>
+    </ul>
+
+<script>
+    var video = document.getElementById("resume-voice");
+    video.style.width = "90%";
+    video.style.backgroundColor = "red";
+    video.style.padding = "5px";
+    document.addEventListener('keydown', (event) => {
+    if(event.code === 'Space' || event.keyCode === 32) {
+        event.preventDefault();
+        if(video.paused) {
+            video.play();
+        } else {
+            video.pause();
+        }
+    }
+    })
+</script>
+    </div>
+    </div>
+</body>
+</html>
